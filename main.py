@@ -17,7 +17,7 @@ def turn_right():
 def clear():
     timmy.clear()
     timmy.penup()
-    timmy.setpos(0, 0)
+    timmy.home()
     timmy.pendown()
     
 screen = Screen()
